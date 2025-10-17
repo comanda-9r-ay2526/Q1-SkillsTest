@@ -1,0 +1,79 @@
+body {
+	background-image: url(https://durolabs.co/wp-content/uploads/2024/07/shutterstock_2330938337-scaled.jpg);
+	background-size: cover;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+	text-align: center;
+}
+
+form {
+	background-color: rgba(230, 230, 230, 0.5);
+	margin: 30px;
+	width: 30%;
+	border: 7px double #2b2b3c;
+	padding: 20px;
+	border-radius: 18px 18px 18px 18px;	
+	box-shadow: -1px 0px 29px 3px rgba(68,68,68,0.75);
+}
+
+input[type=text] {
+  			width: 100%;
+ 			padding: 12px;
+ 			margin: 8px 0;
+ 			display: inline-block;
+  			border: 1px solid #ccc;
+ 			border-radius: 4px;
+  			box-sizing: border-box;
+}
+
+input[type=email], select {
+  			width: 100%;
+ 			padding: 12px;
+ 			margin: 8px 0;
+ 			display: inline-block;
+  			border: 1px solid #ccc;
+ 			border-radius: 4px;
+  			box-sizing: border-box;
+}
+
+textarea {
+  			width: 100%;
+ 			padding: 12px;
+ 			margin: 8px 0;
+ 			display: inline-block;
+  			border: 1px solid #ccc;
+ 			border-radius: 4px;
+  			box-sizing: border-box;
+}
+
+input[type=submit] {
+ 			width: 49%;
+  			background-color: #32a852;
+  			color: white;
+  			padding: 20px;
+  			margin: 8px 0;
+  			border: solid;
+  			border-radius: 4px;
+  			border-color: #278240;
+  			cursor: pointer;
+}
+
+		input[type=reset] {
+ 			width: 49%;
+  			background-color: #e03450;
+  			color: white;
+  			padding: 20px;
+  			margin: 8px 0;
+  			border: solid;
+  			border-radius: 4px;
+  			border-color: #b0283f;
+  			cursor: pointer;
+}
